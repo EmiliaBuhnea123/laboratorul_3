@@ -22,7 +22,7 @@ _Rularea migrațiilor_
 php artisan migrate
 ```
 
-_Crearea migrațților pentru a adăuga relații între tabele_
+_Crearea migraților pentru a adăuga relații între tabele_
 ```bash
 php artisan make:migration (add_category_id_to_tasks_table --table=tasks / create_task_tag_table)
 ```
