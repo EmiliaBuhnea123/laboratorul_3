@@ -122,16 +122,21 @@ Tranzacțiile sunt un set de operațiuni care permit gruparea mai multor interog
 
 ### Lista surselor utilizate
 Suportul de curs de pe git
+
 https://github.com/MSU-Courses/frameworks-for-web-development/tree/main/ro
 
 Database:Migartions - Foreign Key Constraints
+
 https://laravel.com/docs/11.x/migrations#foreign-key-constraints
 
 Laravel Many-to-Many: Seed Data with Factories - 3 Ways
+
 https://laraveldaily.com/post/laravel-belongstomany-seed-data-factories
 
 Eloquent: Relationships
+
 https://laravel.com/docs/11.x/eloquent-relationships
 
 Active Record vs Data Mapper pattern Laravel - InfinityPP
+
 https://www.infinitypp.com/software-patterns/activerecord-vs-datamapper-pattern-php-laravel/
