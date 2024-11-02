@@ -97,14 +97,17 @@ Aceasta este interfața pentru pagina de afișare a unei sarcini anumite. Utiliz
 
 ### Răspunsuri la întrebările de control
 _Ce sunt migrațiile și la ce se folosesc?_
+
 Migrațiile sunt un instrument care permit gestionarea structurii bazei de date folosind cod. Migrațiile oferă posibilitatea de a aduce modificări în structura bazei de date (de exemplu, adăugarea, modificarea sau ștergerea de tabele și coloane), păstrând în același timp datele. 
 
 _Ce sunt fabricile și seed-urile și cum simplifică procesul de dezvoltare și testare?_
+
 Fabricile sunt clase care creează automat date de test pentru modele.
 Seeder-ele sunt clase destinate pentru a popula baza de date cu date de test.
 Ele simplifică procesul de dezvoltare și testare prin automatizarea generării de date și a instanțelor de obiecte.
 
 _Ce este ORM? Care sunt diferențele dintre pattern-urile DataMapper și ActiveRecord?_
+
 ORM (Object-Relational Mapping) este o tehnologie care permite interacțiunea cu baza de date prin intermediul obiectelor dintr-un limbaj de programare, fără a scrie interogări SQL directe. 
 Diferențele dintre Active Record și Data Mapper:
 - Active Record mapează direct clasa la tabelul bazei de date, în timp ce Data Mapper separă entitatea de logica bazei de date.
@@ -112,12 +115,14 @@ Diferențele dintre Active Record și Data Mapper:
 - Data Mapper permite validări și manipulări înainte de atribuirea datelor, oferind mai mult control decât Active Record.
 
 _Care sunt avantajele utilizării unui ORM comparativ cu interogările SQL directe?_
+
 Avantajele utilizării unui ORM comparativ cu interogările SQL directe includ:
 - Simplificarea codului, deoarece nu este necesară scrierea manuală a interogărilor SQL.
 - Reducerea erorilor prin utilizarea obiectelor.
 - Oferirea de funcționalități avansate precum gestionarea automată a relațiilor între obiecte.
 
 _Ce sunt tranzacțiile și de ce sunt importante în lucrul cu bazele de date?_
+
 Tranzacțiile sunt un set de operațiuni care permit gruparea mai multor interogări într-o singură operațiune logică, asigurând că toate modificările la baza de date au loc complet sau deloc. Ele sunt importante pentru menținerea integrității datelor, în cazul apariției unor erori.
 
 ### Lista surselor utilizate
